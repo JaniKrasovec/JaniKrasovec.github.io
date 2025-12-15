@@ -1,7 +1,7 @@
 # JaniKrasovec.github.io
 
 Welcome to the personal website of **Jani Krašovec**.  
-This page is part of a GitHub Pages project and was last tested on **22 May 2025**.
+This page is part of a GitHub Pages project and was last tested on **22 May 2025** & updated **15.12.2025**.
 
 ## 🔗 Useful Links
 
