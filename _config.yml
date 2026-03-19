@@ -3,7 +3,10 @@ description: Personal website and notes
 
 remote_theme: mmistakes/minimal-mistakes@4.28.0  # or latest tag
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed          # optional, common
+  - jekyll-paginate      # if using pagination
+  - jekyll-sitemap       # optional
+  - jekyll-include-cache # ← this is required for the error fix
 # show_excerpts: true
 
 # Optional but useful
