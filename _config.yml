@@ -20,7 +20,6 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JaniKrasovec"
 
-
 # Header / navigation (optional, adds top menu)
 header:
   overlay_image: /assets/images/header-bg.jpg   # optional background image
@@ -34,4 +33,4 @@ defaults:
     values:
       layout: splash   # or single, page — try splash for hero-style homepage
 # Optional but useful
-github_username: JaniKrasovec
+github_username: JaniKrasovec (!)
