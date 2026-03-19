@@ -23,7 +23,7 @@ This site is powered by Jekyll on GitHub Pages.
 
 Last tested: March 2026
 #MeMe
-<img alt="My photo" src="/assets/images/jani.jpg" style="width:80px;height:80px;>
+<img alt="My photo" src="/assets/images/jani.jpg" style="width:80px;height:80px;">
 
 ## Useful Links
 - [The Oxygen Advantage PDF (direct)]({{ '/assets/The%20Oxygen%20Advantage%20by%20Patrick%20McKeown.pdf' | relative_url }})
