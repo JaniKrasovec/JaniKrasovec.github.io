@@ -1,13 +1,37 @@
-title: Jani Krašovec
-description: Personal website and notes
-
 remote_theme: mmistakes/minimal-mistakes@4.28.0  # or latest tag
 plugins:
-  - jekyll-feed          # optional, common
-  - jekyll-paginate      # if using pagination
   - jekyll-sitemap       # optional
   - jekyll-include-cache # ← this is required for the error fix
-# show_excerpts: true
 
+
+title: Jani Krašovec
+description: Personal website, notes, and links
+
+minimal_mistakes_skin: default   # clean light (default)
+
+
+# Author info (shows in sidebar/header)
+author:
+  name: "Jani Krašovec"
+  avatar: "/assets/images/jani.jpg"   # upload a photo to /assets/images/ first
+  bio: "Born on summer of sixtynine..."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JaniKrasovec"
+
+
+# Header / navigation (optional, adds top menu)
+header:
+  overlay_image: /assets/images/header-bg.jpg   # optional background image
+  overlay_filter: 0.5
+  caption: "Stay on this road"
+
+# Make homepage use a full-width or splash layout (optional)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: splash   # or single, page — try splash for hero-style homepage
 # Optional but useful
 github_username: JaniKrasovec
