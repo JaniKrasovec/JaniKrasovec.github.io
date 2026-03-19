@@ -1,6 +1,9 @@
 title: Jani Krašovec
 description: Personal website and notes
-theme: architect   # or another supported theme — see below
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"   # very popular in 2026
+plugins:
+  - jekyll-remote-theme
+
 show_excerpts: true
 
 # Optional but useful
