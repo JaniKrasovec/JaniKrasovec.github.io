@@ -5,7 +5,7 @@ title: Welcome
 
 # Hello!
 
-Welcome to the personal website of **Jani Krašovec**.
+This is *THE* personal website of **Jani Krašovec**.
 
 This site is powered by Jekyll on GitHub Pages.
 
