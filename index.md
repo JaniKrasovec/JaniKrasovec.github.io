@@ -23,6 +23,11 @@ This site is powered by Jekyll on GitHub Pages.
 
 Last tested: March 2026
 
+##Test images:
+<img alt="My photo" src="/assets/images/jani.jpg" ></img>   <!-- or jani.JPG if not renamed -->
+
+<img alt="Header background test" src="/assets/images/header-bg.jpg" ></img>
+
 ## Useful Links
 - [The Oxygen Advantage PDF (direct)]({{ '/assets/The%20Oxygen%20Advantage%20by%20Patrick%20McKeown.pdf' | relative_url }})
 
