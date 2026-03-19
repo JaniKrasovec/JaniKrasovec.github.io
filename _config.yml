@@ -1,36 +1,33 @@
-remote_theme: mmistakes/minimal-mistakes@4.28.0  # or latest tag
-plugins:
-  - jekyll-sitemap       # optional
-  - jekyll-include-cache # ← this is required for the error fix
+url: "https://janikrasovec.github.io"   # ← add this (helps asset resolution on GH Pages)
+baseurl: ""                             # ← empty string for user/organization sites
 
+remote_theme: mmistakes/minimal-mistakes@4.28.0
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-include-cache
 
 title: Jani Krašovec
 description: Personal website, notes, and links
 
-minimal_mistakes_skin: default   # clean light (default)
+minimal_mistakes_skin: default
 
-
-# Author info (shows in sidebar/header)
 author:
   name: "Jani Krašovec"
-  avatar: "/assets/images/jani.jpg"   # upload a photo to /assets/images/ first
+  avatar: "/assets/images/jani.jpg"     # change to "/assets/images/jani.JPG" if you don't rename the file
   bio: "Born on summer of sixtynine..."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JaniKrasovec"
 
-# Header / navigation (optional, adds top menu)
 header:
-  overlay_image: /assets/images/header-bg.jpg   # optional background image
+  overlay_image: /assets/images/header-bg.jpg
   overlay_filter: 0.5
   caption: "Stay on this road"
 
-# Make homepage use a full-width or splash layout (optional)
 defaults:
   - scope:
       path: ""
     values:
-      layout: splash   # or single, page — try splash for hero-style homepage
-# Optional but useful
-github_username: JaniKrasovec (!)
+      layout: splash
